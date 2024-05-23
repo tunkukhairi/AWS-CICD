@@ -5,7 +5,7 @@ FROM python:3.8
 WORKDIR /app
 
 # copy requirement file
-COPY requirements.txt
+COPY requirements.txt .
 
 # install dependencies
 RUN pip install -r requirements.txt
